@@ -1,0 +1,174 @@
+body {
+   
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    
+}
+
+.home .animation-text {
+    text-align: center;
+    font-size: 34px;
+    font-weight: 600;
+    min-width: 280px;
+    color: white;
+    padding: 20px;
+    width:100%;
+}
+.header {
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    background: url(/imgs/bg.jpg) rgba(0, 0, 0, 0.65);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-blend-mode:darken;
+}
+.header .v-middle {
+    z-index: 11;
+}
+.v-middle{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 0;
+}
+.header .caption .social-icon {
+    margin-top: 30px;
+    justify-content: space-between;
+}
+a .social i{
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    padding-left: 5px;
+    padding-right: 5px;
+    cursor: pointer;
+    color: white;
+    font-size: 14px;
+}
+.header .caption .social-icon span {
+    
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.3);
+}
+.header .caption {
+    text-align: center;
+    color: #fff;
+    margin-top: 50px;
+}
+#contact-me:hover {
+background-color: #000;
+color: white;
+}
+#download {
+    background-color: #000;
+    color: #fff;
+}
+#download:hover {
+    background-color: #fff;
+    color: #000;
+    border: solid #000 1px;
+}
+nav {
+    background-color: transparent;
+    color: white;
+}
+
+#services-card {
+    align-items: center;
+    justify-content: center;
+}
+#service-icon {
+    background-color:#eee;
+    margin: 20px;
+}
+#services {
+    background-color: #eee;
+}
+.section-head {
+    text-align: center;
+    margin-bottom: 80px;
+}
+.section-head h3{
+    font-weight: 900;
+    font-size: 40px;
+    position: relative;
+    top: 40px;
+    display: inline-block;
+    z-index: 4;
+}
+
+.card .span-icon{
+    font-size: 30px;
+    margin: 20px;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    background: #f4f4f4;
+    border-radius: 50%;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    text-align: center;
+}
+
+.card .span-icon:hover {
+    background-color: #000;
+    color: #eee;
+}
+
+#card-shad {
+    box-shadow: 0px 10px 3px -8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+/* portfolio*/
+
+#container-image {
+    display: none;
+}
+.image {
+    opacity: 1;
+}
+#container-image:hover {
+background-color: white;
+width: 100%;
+height: auto;
+position: relative;
+}
+.section-padding {
+    padding: 100px 0;
+}
+.numbers .icon {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+span {
+    display: inline-block;
+}
+.numbers h3 {
+    font-weight: 900;
+    margin-bottom: 15px;
+}
+.numbers p {
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+p {
+    line-height: 1.6;
+    margin: 0;
+    font-size: 15px;
+    color: #748182;
+}
+
+
+
+
+
+
+  
